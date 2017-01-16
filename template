@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Wahi Ride</title>
+	<meta name="description" content="Wahi Ride">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+
+<body data-spy="scroll" data-target="#my-navbar">
+
+	<!--Navbar-->
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>		
+				</button>
+
+				<a href="#my-navbar" class="navbar-brand">
+					<img class="logo-img" src="logo.png" alt="logo" style="width: 200px; height: 35px;">
+				</a>
+			</div><!--Navbar hearder-->
+			
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<a href="https://itunes.apple.com/us/app/transloc-rider-transit-tracking/id751972942?mt=8" class="btn btn-info navbar-btn navbar-right" id="roundbutton">Download Now</a>
+				<ul class="nav navbar-nav">
+					<li><a class="page-scroll" href="#home">HOME</a>
+					<li><a class="page-scroll" href="#gallery">GALLERY</a>
+					<li><a class="page-scroll" href="#download">DOWNLOAD</a>
+					<li><a class="page-scroll" href="#features">FEATURES</a>
+					<li><a class="page-scroll" href="#faq">FAQ</a>
+					<li><a class="page-scroll" href="#contact">CONTACT US</a>
+				</ul>
+			</div>
+		</div><!-- End Container-->
+	</nav><!--End navbar-->
+
+	<!--jumbotron-->
+	<div class="jumbotron" id="home">
+		<div class="container text-center">
+			<h1>Wahi Ride</h1>
+			<p>Wahi Ride is a new easy way to find a carpooling</p>
+
+			<div class="btn-group">
+				<a href="#download" id="roundbutton" class="btn btn-lg btn-info">Download App</a>
+			</div>
+			<div class="btn-group">
+				<a href="#gallery" id="roundbutton" class="btn btn-lg btn-warning" style="width: 153.34px;">Find more</a>
+			</div>
+		</div><!--End container-->
+	</div><!--End jumbotron-->
+
+	<!--Gallery-->
+	<div class="container" id="gallery">
+		<section>
+			<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="1"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="2"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="3"></li>
+				</ol>
+				<div class="carousel-inner"><!--same dimension and size of pictures-->
+					<div class="item active" style="text-align: center">
+						<img src="profile_photo3x.png" alt="Text of the image">
+						<div class="carousel-caption">
+							<h3>Wahi Ride</h3>
+							<p>This is the newest app</p>
+						</div>
+					</div>
+					<div class="item">
+						<center><img src="iphone1.jpg" alt="Text of the image"></center>
+					</div>
+					<div class="item" style="text-align: center">
+						<center><img src="iphone2.jpg" alt="Text of the image"></center>
+					</div>
+					<div class="item" style="text-align: center">
+						<center><img src="iphone3.jpg" alt="image"></center>
+					</div>
+				</div><!--End carousel inner-->
+
+				<a href="#screenshot-carousel" class="left carousel-control" data-slide="prev" hidefocus="true" style="outline: none;">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div><!--End carousel-->
+		</section>
+	</div><!--End gallery-->
+
+	<hr>
+
+	<!--Call to action-->
+	<section id="download">
+		<div class="well">
+			<div class="container text-center">
+				<h3>Have a Try</h3>
+				<p>You will not be disappointe but find a new way to go!</p>
+			</div>
+			<div class="container text-center">
+				<a href="https://itunes.apple.com/us/app/transloc-rider-transit-tracking/id751972942?mt=8" style="text-decoration: none;">
+					<img src="appstore-badge.svg" align="center">
+				</a>					
+				
+				<a href="https://itunes.apple.com/us/app/transloc-rider-transit-tracking/id751972942?mt=8" style="text-decoration: none;">
+					<img src="google-play-badge.png" align="center" style="height: 60px; width: 150px;">
+				</a>
+			</div><!--End container-->
+		</div><!--End well-->
+	</section><!--Call to action-->
+
+	
+
+	<!--Features-->
+	<div class="container">
+		<section>
+			<div class="page-header text-center" id="features">
+				<h2>Features</h2>
+				<p>Check out the awesome features we have! You will like it!</p>
+			</div><!--End page header-->
+
+			<div class="row">
+				<div class="col-sm-8">
+					<h3>Wahi Ride!</h3>
+					<p>Try new features!</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="iphone1.jpg" class="img-responsive" alt="image">
+				</div>
+			</div><!--End row-->
+
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="iphone2.jpg" class="img-responsive" alt="image">
+				</div>
+				<div class="col-sm-8">
+					<h3>Wahi Ride!</h3>
+					<p>Try new features!</p>
+				</div>
+			</div><!--End row-->
+
+			<div class="row">
+				<div class="col-sm-8">
+					<h3>Wahi Ride!</h3>
+					<p>Try new features!</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="iphone3.jpg" class="img-responsive" alt="image">
+				</div>
+			</div><!--End row-->
+
+			<hr>
+
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="panel panel-default text-center">
+						<div class="panel-body">
+							<span class="glyphicon glyphicon-ok"></span>
+							<h4>
+								This is the heading.
+							</h4>
+							<p>
+								Wahi ride android app is on the way.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<span class="glyphicon glyphicon-star"></span>
+							<h4>
+								This is the heading.
+							</h4>
+							<p>
+								Wahi ride android app is on the way.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<span class="glyphicon glyphicon-heart"></span>
+							<h4>
+								This is the heading.
+							</h4>
+							<p>
+								Wahi ride android app is on the way.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div><!--End row-->
+
+		</section>
+	</div><!--End container--><!--End features-->
+
+	<!--FAQ-->
+	<div class="container">
+		<section>
+			<div class="page-header text-center" id="faq">
+				<h2>FAQ <small>Engaging with consumers.</small></h2>
+			</div><!--End page header-->
+
+			<div class="panel-group" id="accordion">
+				<div class="panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-1" data-toggle="collapse" data-parent="#accordion">
+								Question One?
+							</a>
+						</div><!--End panel title-->
+						<div id="collapse-1" class="panel-collapse collapse in">
+							<div class="panel-body">
+								What's Wahi Ride? Wahi ride is a blablablablabla....
+							</div>
+						</div><!--End panel collapse-->
+					</div>
+				</div><!--End panel default-->
+
+				<div class="panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-2" data-toggle="collapse" data-parent="#accordion">
+								Question Two?
+							</a>
+						</div><!--End panel title-->
+						<div id="collapse-2" class="panel-collapse collapse">
+							<div class="panel-body">
+								What's Wahi Ride? Wahi ride is a blablablablabla....
+							</div>
+						</div><!--End panel collapse-->
+					</div>
+				</div><!--End panel default-->
+
+				<div class="panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-3" data-toggle="collapse" data-parent="#accordion">
+								Question Three?
+							</a>
+						</div><!--End panel title-->
+						<div id="collapse-3" class="panel-collapse collapse">
+							<div class="panel-body">
+								What's Wahi Ride? Wahi ride is a blablablablabla....
+							</div>
+						</div><!--End panel collapse-->
+					</div>
+				</div><!--End panel defalut-->
+
+			</div><!--End panel group-->
+		</section>
+	</div><!--End container-->
+
+
+	<!--Contact-->
+	<div class="container">
+		<section>
+			<div class="page-header  text-center" id="contact">
+				<h2>Let's Get In Touch!</h2>
+				<p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+			</div><!--End page header-->
+
+			<div class="row">
+				<div class="col-lg-4">					
+						<div class="panel panel-default">
+							<div class="panel-body">								
+								<h4>
+									Emergency? Call now!
+								</h4>
+								<span class="glyphicon glyphicon-earphone"></span>
+								<p>
+									352-284-0000
+								</p>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-body">
+								<h4>
+									Also, you can mail us with following address.
+								</h4>
+								<span class="glyphicon glyphicon-envelope"></span>
+								<address>
+									<strong>Wahi Ride Company</strong></br>
+									Univ. of Florida</br>
+									Gainesville, FL</br>
+									32608</br>
+								</address>
+							</div>
+						</div>									
+				</div>
+
+				<div class="col-lg-8">
+					<form action="" class="form-horizontal">
+						<div class="form-group">
+							<label for="user-name" class="col-lg-2 control-label">
+								Name
+							</label>
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="user-name" placeholder="Enter your name">
+							</div>
+						</div><!--End form group-->
+
+						<div class="form-group">
+							<label for="user-email" class="col-lg-2 control-label">
+								Email
+							</label>
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="user-email" placeholder="Enter your email address">
+							</div>
+						</div><!--End form group-->
+
+						<div class="form-group">
+							<label for="user-url" class="col-lg-2 control-label">
+								Phone number
+							</label>
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="user-url" placeholder="It's convinient for us to contact you in emergency">
+							</div>
+						</div><!--End form group-->
+
+						<div class="form-group">
+							<label for="user-message" class="col-lg-2 control-label">
+								Any Message
+							</label>
+							<div class="col-lg-10">
+								<textarea name="user-message" id="user-message" class="form-control" cols="20" rows="10" placeholder="Enter your message"></textarea>
+							</div>
+						</div><!--End form group-->
+
+						<div class="form-group">
+							<div class="col-lg-10 col-lg-offset-2">
+								<button type="submit" class="btn btn-primary" id="roundbutton">Submit</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div><!--End row-->
+
+		</section>
+	</div>
+
+	<!--Footer-->
+	<footer>
+		<hr>
+		<div class="container">
+			<div class="container text-center">
+				<h3>Subscribe for more free stuff</h3>
+				<p>Enter your name and email</p>
+
+				<form action="" class="form-inline">
+					<div class="form-group">
+						<label for="subscription">Subscribe</label>
+						<input type="text" name="form-control" id="subscription" placeholder="Your name">
+					</div>
+					<div class="form-group">
+						<label for="email">Email address</label>
+						<input type="text" name="form-control" id="emial" placeholder="Your email address">
+					</div>
+					<button type="submit" id="roundbutton" class="btn btn-default">Subscribe</button>
+				</form>
+
+				<hr>
+				
+				<div class="share-buttons" id="share-buttons">
+					<!-- Facebook -->
+    				<a href="http://www.facebook.com/sharer.php?u=https://wahiride.com" target="_blank" class="darken">
+        				<img src="facebook.png" alt="Facebook" />
+    				</a>
+
+    				<!-- Twitter -->
+				    <a href="https://twitter.com/share?url=https://wahiride.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=wahiride" target="_blank" class="darken">
+				        <img src="twitter.png" alt="Twitter" />
+				    </a>
+
+				    <!-- Email -->
+				    <a href="mailto:?Subject=Wahi Ride&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://wahiride.com" class="darken">
+				        <img src="email.png" alt="Email" />
+				    </a>
+ 
+				    <!-- Google+ -->
+				    <a href="https://plus.google.com/share?url=https://wahiride.com" target="_blank" class="darken">
+				        <img src="google.png" alt="Google" />
+				    </a>
+            	</div><!--End social sharing-->
+				
+				<p>&copy; Copyright @ 2017 Wahi Ride</p>
+			</div><!--End container-->
+		</div>
+	</footer>
+
+	<!--scroll up-->
+	<a href="#" class="back-to-top">Back to Top</a>
+	
+
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!--scroll up button, attention: it should be beside jquery-->
+	<script src="main.js"></script>
+	
+</body>
+</html>
