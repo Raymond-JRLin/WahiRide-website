@@ -1,0 +1,83 @@
+/*make top arrangement more beautiful*/
+body{
+	padding-top: 40px;
+}
+
+#navbar-collapse {
+	overflow-x: scroll;
+	width: auto;
+	white-space: nowrap;
+}
+
+/*change the social sharing buttons size*/
+#share-buttons img {
+	width: 35px;
+	padding: 5px;
+	border: 0;
+	box-shadow: 0;
+	display: inline;
+}
+
+/*darken buttons when mouseover*/
+a.darken {
+    display: inline-block;
+    padding: 0;
+}
+a.darken img {
+    display: block;
+    -webkit-transition: all 0.25s linear;
+       -moz-transition: all 0.25s linear;
+        -ms-transition: all 0.25s linear;
+         -o-transition: all 0.25s linear;
+            transition: all 0.25s linear;
+}
+a.darken:hover img {
+    opacity: 0.7;
+}
+
+/*scroll up*/
+a.back-to-top {
+	display: none;
+	width: 50px;
+	height: 50px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 10px;
+	bottom: 10px;
+	background: #27AE61 url("up-arrow.png") no-repeat center 43%;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+a:hover.back-to-top {
+	background-color: #000;
+}
+
+/*adjustment of download buttons*/
+.downloadbtn{
+	height: 40px;
+	width: 135px;
+	text-align: center;
+}
+.downloadbtn img{
+	height: auto;
+	width: 100%;
+	text-align: center;
+}
+
+/*adjustment of logo image*/
+.navbar{
+	width: 100%;
+	text-align: center;
+	display: inline;
+}
+.logo-img{
+	float: left;
+	top: 10px;
+	display: inline;
+}
+
+#roundbutton{
+	border-radius: 50px;
+}
