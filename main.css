@@ -1,13 +1,21 @@
 /*make top arrangement more beautiful*/
 body{
-	padding-top: 40px;
+	/*padding-top: 40px;*/
 }
 
+/*set collasped navbar*/
 #navbar-collapse {
 	overflow-x: scroll;
 	width: auto;
 	white-space: nowrap;
 }
+
+.navbar-brand{
+	float: left;
+    height: 50px;
+    padding: 6px 5px;
+    font-size: 18px;
+    line-height: 20px;}
 
 /*change the social sharing buttons size*/
 #share-buttons img {
@@ -35,7 +43,7 @@ a.darken:hover img {
     opacity: 0.7;
 }
 
-/*scroll up*/
+/*scroll to the top*/
 a.back-to-top {
 	display: none;
 	width: 50px;
@@ -73,11 +81,47 @@ a:hover.back-to-top {
 	display: inline;
 }
 .logo-img{
+	width: 160px; 
+	height: 35px;
 	float: left;
 	top: 10px;
 	display: inline;
 }
 
+/*make some buttons round*/
 #roundbutton{
 	border-radius: 50px;
+}
+
+.well{
+	margin-bottom: 0;
+}
+
+/*adjustment of div padding top to cancell out the space occupied by navbar*/
+#home{
+	padding-top: 5%;
+}
+/*followings use blank divs with certain height to control*/
+/*#gallery{
+	padding-top: 5%;
+}*/
+/*#download{
+	padding-top: 3%;
+}
+#features{
+	padding-top: 3%;
+}
+*//*#faq{
+	padding-top: 3%;
+}*/
+#contact{
+	/*padding-top: 3%;*/
+	background-color:  #F05F40;
+}
+#features{
+	background-color:  #F05F40;
+}
+
+.page-scroll{
+	cursor: pointer;
 }
