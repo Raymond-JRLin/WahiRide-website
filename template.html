@@ -23,33 +23,35 @@
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+					<span class="sr-only">Toggle navigation</span>
+					<i class="fa fa-bars"></i>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>		
 				</button>
 
-				<a href="#my-navbar" class="navbar-brand">
-					<img class="logo-img" src="logo.png" alt="logo" style="width: 200px; height: 35px;">
+				<a href="#home" class="navbar-brand" id="logoButton">
+					<img class="logo-img" src="logo.png" alt="logo">
 				</a>
 			</div><!--Navbar hearder-->
 			
 			<div class="collapse navbar-collapse" id="navbar-collapse">
 				<a href="https://itunes.apple.com/us/app/transloc-rider-transit-tracking/id751972942?mt=8" class="btn btn-info navbar-btn navbar-right" id="roundbutton">Download Now</a>
 				<ul class="nav navbar-nav">
-					<li><a class="page-scroll" href="#home">HOME</a>
-					<li><a class="page-scroll" href="#gallery">GALLERY</a>
-					<li><a class="page-scroll" href="#download">DOWNLOAD</a>
-					<li><a class="page-scroll" href="#features">FEATURES</a>
-					<li><a class="page-scroll" href="#faq">FAQ</a>
-					<li><a class="page-scroll" href="#contact">CONTACT US</a>
+					<li><a class="page-scroll" id="homeButton">HOME</a>
+					<li><a class="page-scroll" id="galleryButton">GALLERY</a>
+					<li><a class="page-scroll" id="downloadButton">DOWNLOAD</a>
+ 					<li><a class="page-scroll" id="featuresButton">FEATURES</a>
+					<li><a class="page-scroll" id="faqButton">FAQ</a>
+					<li><a class="page-scroll" id="contactButton">CONTACT US</a>
 				</ul>
 			</div>
 		</div><!-- End Container-->
 	</nav><!--End navbar-->
 
 	<!--jumbotron-->
+	<!--Home div-->
 	<div class="jumbotron" id="home">
 		<div class="container text-center">
 			<h1>Wahi Ride</h1>
@@ -63,6 +65,12 @@
 			</div>
 		</div><!--End container-->
 	</div><!--End jumbotron-->
+	<!--End home div-->
+
+	<!--adjustment of scroll down position-->
+	<div style="height: 56px" id="makeupGallery">
+		
+	</div>
 
 	<!--Gallery-->
 	<div class="container" id="gallery">
@@ -76,14 +84,17 @@
 				</ol>
 				<div class="carousel-inner"><!--same dimension and size of pictures-->
 					<div class="item active" style="text-align: center">
-						<img src="profile_photo3x.png" alt="Text of the image">
+						<center><img src="iphone2.jpg" alt="Text of the image"></center>
 						<div class="carousel-caption">
 							<h3>Wahi Ride</h3>
 							<p>This is the newest app</p>
 						</div>
 					</div>
-					<div class="item">
+					<div class="item" style="text-align: center;">
 						<center><img src="iphone1.jpg" alt="Text of the image"></center>
+						<div class="carousel-caption">
+							
+						</div>
 					</div>
 					<div class="item" style="text-align: center">
 						<center><img src="iphone2.jpg" alt="Text of the image"></center>
@@ -103,13 +114,16 @@
 		</section>
 	</div><!--End gallery-->
 
-	<hr>
+	<!--adjustment of scroll down position-->
+	<div style="height: 10px" id="makeupDownload">
+		
+	</div>
 
 	<!--Call to action-->
 	<section id="download">
 		<div class="well">
 			<div class="container text-center">
-				<h3>Have a Try</h3>
+				<h2>Have a Try</h2>
 				<p>You will not be disappointe but find a new way to go!</p>
 			</div>
 			<div class="container text-center">
@@ -124,7 +138,10 @@
 		</div><!--End well-->
 	</section><!--Call to action-->
 
-	
+	<!--adjustment of scroll down position-->
+	<div style="height: 10px" id="makeupFeatures">
+		
+	</div>
 
 	<!--Features-->
 	<div class="container">
@@ -212,12 +229,18 @@
 
 		</section>
 	</div><!--End container--><!--End features-->
+	
+	<!--adjustment of scroll down position-->
+	<div style="height: 10px" id="makeupFaq">
+		
+	</div>
 
 	<!--FAQ-->
 	<div class="container">
 		<section>
 			<div class="page-header text-center" id="faq">
-				<h2>FAQ <small>Engaging with consumers.</small></h2>
+				<h2>FAQ</h2>
+				<p>You can find some answers of what you concerned!</p>
 			</div><!--End page header-->
 
 			<div class="panel-group" id="accordion">
@@ -270,6 +293,10 @@
 		</section>
 	</div><!--End container-->
 
+	<!--adjustment of scroll down position-->
+	<div style="height: 10px" id="makeupContact">
+		
+	</div>
 
 	<!--Contact-->
 	<div class="container">
