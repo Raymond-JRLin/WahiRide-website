@@ -1,2 +1,2 @@
 # WahiRide-website
-A advertisement website for Wahi Ride
+A official website for Wahi Ride to advertise our product - iOS & Android apps
