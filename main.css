@@ -16,38 +16,49 @@ p,
 	font-family: 'Montserrat', sans-serif;
 }
 
-/*Special font for logo*/
+/*Special font for logo-words*/
 @font-face{
 	font-family: 'Thinking_of_Betty';
 	src: url('Thinking_of_Betty.ttf') format('truetype');
 }
-/*Adjustment for navbar and logo*/
+
+@media (min-width: 768px) {
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+		margin-left: 2em;
+	}
+}
+/*Adjustment for navbar and logo-words*/
 .navbar-header .navbar-brand{
 	font-family: 'Thinking_of_Betty';
-	font-size: 36px;
+	font-size: 30px;
 	color: #007aff;
 	float: none;
-	padding-top: 27px;
-	padding-left: 40px;
+/*	padding-top: 30px;*/
+	/*padding-left: 16%;*/
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
+	margin-left: 20%;
+	padding: 0;
+	/*margin: 0; */
+	height: 100%
 }
 .navbar-brand,
 .navbar-nav li a {
-    line-height: 60px;
-    height: 60px;
+    line-height: 65px;
+    height: 65px;
     padding-top: 0;
+    font-size: large;
 }
 
-.navbar-brand{
+/*.navbar-brand{
 	float: left;
     height: 50px;
     padding: 6px 5px;
     font-size: 18px;
     line-height: 20px;
 }
-
+*/
 /*Words' color in different block*/
 /*Home page words' color*/
 .jumbotron h2{
@@ -69,7 +80,14 @@ p,
 	color: black;
 }
 /*how-it-work words' color*/
-#how-it-works h1, h3, h4{
+#how-it-works h1, h4{
+	color: white;
+}
+/*team-vision workds' color*/
+#team-vision h1, h3 {
+	color: #007aff;
+}
+#team h1, h4 {
 	color: white;
 }
 /*contact us color*/
@@ -92,17 +110,17 @@ p,
 #how-it-works{
 	background-color: #007aff;
 }
-
-/*Adujustment of home page pic's size*/
-.homePic{
-	width: 500px; 
-	height: 600px;
-	float: left;
-	display: inline-block;
+#team {
+	background-color: #007aff;	
 }
 
-
-
+/*Adujustment of home page pic's size*/
+.jubotron .img-responsive{
+	width: 500px; 
+	height: 600px;
+	float: none;
+	display: inline-block;
+}
 
 /*change the social sharing buttons size*/
 #share-buttons img {
@@ -146,11 +164,17 @@ a.back-to-top {
 	border-radius: 30px;
 }
 a:hover.back-to-top {
-	background-color: #000;
+	/*background-color: #000;*/ /*cancel result of black after clicking the button */
+	opacity: 0.7; /*while create opaque animation*/
+	-webkit-transition: all 0.25s linear;
+       -moz-transition: all 0.25s linear;
+        -ms-transition: all 0.25s linear;
+         -o-transition: all 0.25s linear;
+            transition: all 0.25s linear;
 }
 
-/*adjustment of download buttons*/
-.downloadbtn{
+/*adjustment of download buttons*/ /*cancel download button*/
+/*.downloadbtn{
 	height: 40px;
 	width: 135px;
 	text-align: center;
@@ -159,13 +183,18 @@ a:hover.back-to-top {
 	height: auto;
 	width: 100%;
 	text-align: center;
+}*/
+
+/*adjustment of logo image for shape and position*/
+.logo-img{
+	width: 180px;
+	height: 45px;
+	margin-top: 0.25em;
 }
 
-/*adjustment of logo image*/
-.navbar{
-	width: 100%;
+/*make open collapsed button align in center*/
+.navbar {
 	text-align: center;
-	display: inline;
 }
 
 /*make some buttons round*/
@@ -182,6 +211,7 @@ a:hover.back-to-top {
 	padding-top: 5%;
 }*/
 
+/*makeup of navbar height*/
 section {
   padding: 6% 0;
 }
@@ -189,6 +219,7 @@ section {
 .page-scroll{
 	cursor: pointer;
 }
+
 /*img {
 	max-width: 100%;
 	width: auto 9;
@@ -211,6 +242,7 @@ section {
 	height: 180px;
 }
 
+/*change phoneImg's size*/
 #phoneImg{
 	width: 261px;
 	height: 541px;
@@ -218,6 +250,81 @@ section {
 	/*text-align: center;*/
 }
 
+/*make pics in the center in mobile devices*/
 #how-it-works .img-responsive{
 	margin: 0 auto;
+}
+#features .img-responsive{
+	margin: 0 auto;
+}
+
+/*adjustment for jumbo to be in the center in laptop*/
+.jumbotron {
+	margin-left:0px;
+	margin-right:0px;
+}
+.jumbo-text {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+.jumbotron .img-responsive {
+	margin-left: 1em;
+}
+
+/*animation for logo words*/
+a:hover.navbar-brand {
+	opacity: 0.7; /*while create opaque animation*/
+	-webkit-transition: all 0.25s linear;
+       -moz-transition: all 0.25s linear;
+        -ms-transition: all 0.25s linear;
+         -o-transition: all 0.25s linear;
+            transition: all 0.25s linear;
+}
+
+nav div div a {
+	color: #007aff;
+	transition: color 0.25s linear;
+	-o-transition: color 0.25s linear;
+	-ms-transition: color 0.25s linear;
+	-moz-transition: color 0.25s linear;
+	-webkit-transition: color 0.25s linear; 
+}
+nav div div a:hover {
+	color: #007aff;
+	cursor: pointer;
+}
+
+/*animation for navbar button when mouse left*/
+ul li a {
+	color: #007aff;
+	transition: color 0.25s linear;
+	-o-transition: color 0.25s linear;
+	-ms-transition: color 0.25s linear;
+	-moz-transition: color 0.25s linear;
+	-webkit-transition: color 0.25s linear;         
+}
+ul li a:hover {
+	color: #007aff;
+	cursor: pointer;
+}
+
+
+/*different setting for mobile devices*/
+@media only screen and (max-width: 1024px) { /*1024 for iPad, but not for landscape*/
+	.jumbo-text {
+		text-align: center;/*make words in header be in the center in mobile devices*/
+	}
+	section {
+	  padding: 12% 0;/*makeup of navbar height in mobile*/
+	}
+
+}
+
+.img-whole-team {
+	width: 100%;
+	height: auto;
+}
+
+.img-team {
+	width: 100%;
 }

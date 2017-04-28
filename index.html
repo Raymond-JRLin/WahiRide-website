@@ -6,6 +6,8 @@
 	<title>Wahi Ride</title>
 	<meta name="description" content="Wahi Ride">
 
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -27,7 +29,7 @@
 		<div class="container-fluid">
 			<!-- Brand and toggle get gouped for better mobile display -->
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
 					<span class="sr-only">Toggle navigation</span>
 					<i class="fa fa-bars"></i>
 					<span class="icon-bar"></span>
@@ -36,10 +38,10 @@
 					<span class="icon-bar"></span>	
 				</button>
 
-				<a class="navbar-brand page-scroll" href="#page-top" id="logoButton">Wahi 	 Ride</a>
-				<!-- <a href="#home" class="navbar-brand" id="logoButton">
-					<img class="logo-img" src="logo.png" alt="logo">
-				</a> -->
+				<!-- <a class="navbar-brand page-scroll" id="logoButton" style="">Wahi 	 Ride</a> -->
+				<a class="navbar-brand" id="logoButton">
+					<img class="logo-img" src="textLogo.gif" alt="logo" style="width: 180px; height: 45px; margin-top: 0.25em;">
+				</a>
 			</div><!--End of Navbar hearder-->
 			
 			<div class="collapse navbar-collapse" id="navbar-collapse">
@@ -47,6 +49,8 @@
 					<li><a class="page-scroll" id="homeButton">HOME</a></li>
  					<li><a class="page-scroll" id="featuresButton">FEATURES</a></li>
 					<li><a class="page-scroll" id="workButton">HOW IT WORKS</a></li>
+					<li><a class="page-scroll" id="teamVisionButton">TEAM VISION</a></li>
+					<li><a class="page-scroll" id="teamButton">TEAM</a></li>
 					<li><a class="page-scroll" id="contactButton">CONTACT</a></li>
 				</ul>
 			</div><!-- End navbar menu -->
@@ -54,28 +58,27 @@
 	</nav><!--End navbar-->
 
     <!-- Home page -->
-    <div class="jumbotron" id="home">
-    	<div class="row">
-    		<div class="col-lg-6 pull-left">
-            	<img src="home.png" class="homePic">
-            </div>
-            <div class="col-lg-5 text-left" style="padding-top: 160px;">
-            	<h2 id="homeHeading">The Social Ridesharing App</h2>
-            	<br>
-                <p>Wahi Ride is a free application for college students. It helps you find a ride with someone traveling the same direction or it lets you offer a ride while making some extra money.</p>
-                <br>
-                <a target="#_blank" href="https://itunes.apple.com/us/app/transloc-rider-transit-tracking/id751972942?mt=8" style="text-decoration: none;">
-					<img src="appstore-badge.svg" align="center">
-				</a>
-            </div>
-    	</div><!--End row-->
+    <div class="row jumbotron" id="home">
+		<div class="col-lg-5 pull-left">
+        	<img src="home.png" class="img-responsive">
+        </div>
+        <div class="col-lg-5 text-left jumbo-text" style="margin-top: 160px; ">
+        	<h2 id="homeHeading">The Social Ridesharing App</h2>
+        	<br>
+            <p>Wahi Ride is a free application for college students. It helps you find a ride with someone traveling the same direction or it lets you offer a ride while making some extra money.</p>
+            <p>App launches in March 2017!</p>
+            <br>
+            <a style="text-decoration: none;">
+				<img src="appstore-badge.svg" align="center">
+			</a>
+        </div>
     </div><!-- End home page div -->
 
 	<!--Features-->
 	<section id="features">
 		<div class="container">
 			<div class="container text-center" id="features">
-				<h1>Your Ridesharing Experience Made Fun</h2>
+				<h1>Your Ridesharing Experience Made Simple</h2>
 				<br>
 				<h3>Whether you need or give a ride, Wahi Ride is creating a community where you can...</h3>
 			</div>
@@ -83,7 +86,7 @@
 			<div class="row">
 				<div class="col-lg-4">
 					<div>
-						<img src="money.svg" class="img-responsive" alt="image">
+						<img src="money.png" class="img-responsive" alt="image">
 					</div>
 					<div class="text-center">
 						<h3>Share Costs</h3>
@@ -92,7 +95,7 @@
 				</div><!-- End 1st fearture -->
 				<div class="col-lg-4">
 					<div>
-						<img src="shaking-hands.svg" class="img-responsive" alt="image">
+						<img src="shaking-hands.png" class="img-responsive" alt="image">
 					</div>
 					<div class="text-center">
 						<h3>Make New Friends</h3>
@@ -102,7 +105,7 @@
 				</div><!-- End 2nd fearture -->
 				<div class="col-lg-4">
 					<div>
-						<img src="eco-friendly.svg" class="img-responsive" alt="image">
+						<img src="eco-friendly.png" class="img-responsive" alt="image">
 					</div>
 					<div class="text-center">
 						<h3>Save The Planet</h3>
@@ -126,7 +129,7 @@
 						<h3>Don't have a car and want to travel?</h3>
 					</div>
 					<br>
-					<div class="col-lg-offset-3">
+					<div>
 						<img src="need-a-ride.png" class="img-responsive" id="phoneImg">
 					</div>
 					<br>
@@ -139,7 +142,7 @@
 						<h3>Have Extra Seats in Your Car?</h3>
 					</div>
 					<br>
-					<div class="col-lg-offset-3">
+					<div>
 						<img src="give-a-ride.png" class="img-responsive" id="phoneImg">
 					</div>
 					<br>
@@ -173,6 +176,94 @@
 			<div class="row">
 				<div class="col-lg-4 col-lg-offset-4">
 					<a id="joinBtn" type="button" class="btn btn-md btn-block">JOIN THE RIDESHARING MOVEMENT</a><!-- btn-default -->
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- TeamVision -->
+	<section id="team-vision">
+		<div class="container text-center">
+			<h1>Team Vision</h1>
+		</div>
+		<div class="container">
+			<img src="team/whole-team.png" class="img-whole-team" id="team-img">
+		</div>
+		<div class="container text-center">
+			<h3>Innovation! Hard Work! Fun!</h3>
+		</div>
+	</section>
+
+	<!-- Team -->
+	<section id="team">
+		<div class="container">
+			<div class="container text-center">
+				<h1>Our Fancy Team!</h1>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-lg-2 col-lg-offset-3">
+					<div>
+						<img src="team/jonny-fun.png" class="img-team" id="img-jonny">	
+					</div>
+					<br>
+					<div class="text-center">
+						<h4>Jonny Petrucco, co-founder</h4>	
+					</div>
+					<br>
+				</div>
+				<div class="col-lg-2 col-lg-offset-2">
+					<div>
+						<img src="team/diego.png" class="img-team" id="img-diego">
+					</div>
+					<br>
+					<div class="text-center">
+						<h4>Diego De La Hoz, co-founder</h4>
+					</div>
+					<br>
+				</div>
+			</div><!-- End of row -->
+			<br>
+			<div class="row">
+				<div class="col-lg-2">
+					<div>
+						<img src="team/steven.png" class="img-team" id="img-steven">
+					</div>
+					<br>
+					<div class="text-center">
+						<h4>Steven Hurtado, Development Intern</h4>
+					</div>
+					<br>
+				</div>
+				<div class="col-lg-2 col-lg-offset-1">
+					<div class="text-center">
+						<img src="team/junrui.png" class="img-team" id="img-junrui">
+					</div>
+					<br>
+					<div class="text-center">
+						<h4>Junrui Lin, Development Intern</h4>
+					</div>
+					<br>
+				</div>
+				<div class="col-lg-2 col-lg-offset-2">
+					<div>
+						<img src="team/vaibhav.png" class="img-team" id="img-vaibhav">
+					</div>
+					<br>
+					<div class="text-center">
+						<h4>Vaibhav Somani, Development Intern</h4>
+					</div>
+					<br>
+				</div>
+				<div class="col-lg-2 col-lg-offset-1">
+					<div>
+						<img src="team/justin.png" class="img-team" id="img-justin">
+					</div>
+					<br>
+					<div class="text-center">
+						<h4>Justin, Marketing Intern</h4>
+					</div>
+					<br>
 				</div>
 			</div>
 		</div>
@@ -232,27 +323,37 @@
 			<div class="container text-center">
 				<div class="share-buttons" id="share-buttons">
 					<!-- Facebook -->
-    				<a href="http://www.facebook.com/sharer.php?u=https://wahiride.com" target="_blank" class="darken">
+    				<a href="https://www.facebook.com/WahiRide/" target="_blank" class="darken">
         				<img src="facebook.png" alt="Facebook" />
     				</a>
 
     				<!-- Twitter -->
-				    <a href="https://twitter.com/share?url=https://wahiride.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=wahiride" target="_blank" class="darken">
+				    <!-- <a href="https://twitter.com/share?url=https://wahiride.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=wahiride" target="_blank" class="darken">
 				        <img src="twitter.png" alt="Twitter" />
-				    </a>
+				    </a> -->
 
 				    <!-- Email -->
-				    <a href="mailto:?Subject=Wahi Ride&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://wahiride.com" class="darken">
+				    <!-- <a href="mailto:?Subject=Wahi Ride&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://wahiride.com" class="darken">
 				        <img src="email.png" alt="Email" />
-				    </a>
+				    </a> -->
  
 				    <!-- Google+ -->
-				    <a href="https://plus.google.com/share?url=https://wahiride.com" target="_blank" class="darken">
+				    <!-- <a href="https://plus.google.com/share?url=https://wahiride.com" target="_blank" class="darken">
 				        <img src="google.png" alt="Google" />
-				    </a>
+				    </a> -->
             	</div><!--End social sharing-->
-				
-				<p>&copy; Copyright @ 2017 Wahi Ride</p>
+
+            	<br>
+            	<!-- <div class="col-lg-5 col-lg-offset-2"> -->
+            		<p>Copyright &copy; 2017 Wahi Ride, LLC. All rights reserved.
+            		</p>
+            	<!-- </div> -->
+            	<!-- <div class="col-lg-">
+            		<p>All rights reserved.</p>	
+            	</div> -->
+				<!-- <div class="col-lg-5" style="text-align: left;"> -->
+					<a href="privacy/privacy-policy.html">Privacy Policy</a>
+				<!-- </div> -->
 			</div><!--End container-->
 		</div>
 	</footer>

@@ -1,0 +1,108 @@
+@media (min-width: 768px) {
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+		margin-left: 2em;
+	}
+}
+
+/*different setting for mobile devices*/
+@media only screen and (max-width: 1024px) { /*1024 for iPad, but not for landscape*/
+	section {
+	  padding: 12% 0;/*makeup of navbar height in mobile*/
+	}
+
+}
+
+/*Adjustment for navbar and logo-words*/
+.navbar-header .navbar-brand{
+	/*font-family: 'Thinking_of_Betty';*/
+	font-size: 30px;
+	color: #007aff;
+	float: none;
+/*	padding-top: 30px;*/
+	/*padding-left: 16%;*/
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin-left: 2%;
+	padding: 0;
+	/*margin: 0; */
+	height: 100%
+}
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 65px;
+    height: 65px;
+    padding-top: 0;
+    font-size: large;
+}
+
+
+/*animation for logo words*/
+a:hover.navbar-brand {
+	opacity: 0.7; /*while create opaque animation*/
+	-webkit-transition: all 0.25s linear;
+       -moz-transition: all 0.25s linear;
+        -ms-transition: all 0.25s linear;
+         -o-transition: all 0.25s linear;
+            transition: all 0.25s linear;
+}
+
+nav div div a {
+	color: #007aff;
+	transition: color 0.25s linear;
+	-o-transition: color 0.25s linear;
+	-ms-transition: color 0.25s linear;
+	-moz-transition: color 0.25s linear;
+	-webkit-transition: color 0.25s linear; 
+}
+nav div div a:hover {
+	color: #007aff;
+	cursor: pointer;
+}
+
+/*adjustment of logo image for shape and position*/
+.logo-img{
+	width: 180px;
+	height: 45px;
+	margin-top: 0.25em;
+}
+
+/*make open collapsed button align in center*/
+.navbar {
+	text-align: center;
+}
+
+/*animation for navbar button when mouse left*/
+ul li a {
+	color: #007aff;
+	transition: color 0.25s linear;
+	-o-transition: color 0.25s linear;
+	-ms-transition: color 0.25s linear;
+	-moz-transition: color 0.25s linear;
+	-webkit-transition: color 0.25s linear;         
+}
+ul li a:hover {
+	color: #007aff;
+	cursor: pointer;
+}
+
+h1 {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+h4,
+p {
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+h3 {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+li {
+	margin-left: 1em;
+	margin-right: 2em;
+}
